@@ -8,7 +8,9 @@
 #### 2- To run the test in different browsers run the following commands respectively.
 
 > npm testChrome
+
 > npm testIE
+
 > npm testFirefox
 
 ## Test Scenario 
