@@ -1,4 +1,4 @@
-# Room to-do list Demo with TestCafe and POM Framework
+# Ruum to-do list Demo with TestCafe and POM Framework
 
 #### 1 - After clonning the repisotory run the following command in the projects's root directory.
 ####  That will install the required node modules.
