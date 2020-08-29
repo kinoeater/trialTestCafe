@@ -5,6 +5,9 @@
 
 > npm i
 
+* Please make sure node.js installed on your computer
+https://nodejs.org/en/
+
 #### 2- To run the test in different browsers run the following commands respectively.
 
 > npm testChrome
