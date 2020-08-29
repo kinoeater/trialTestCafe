@@ -1,0 +1,19 @@
+{
+  "name": "sap_testcafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "testcafe \"chrome '--window-size=2880,1800'\" test/task.js"
+  },
+  "keywords": [],
+  "author": "Bensu Konakoglu",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^1.9.1",
+    "testcafe-reporter-html": "^1.4.6"
+  }
+}
