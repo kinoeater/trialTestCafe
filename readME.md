@@ -1,12 +1,12 @@
 # Ruum to-do list Demo with TestCafe and POM Framework
 
-#### 1 - After clonning the repisotory run the following command in the projects's root directory.
-
-#### That will install the required node modules.
+#### 1 - After clonning the repisotory to your computer, run the following command in the projects's root directory.
 
 > npm i
 
-- Please make sure node.js installed on your computer
+#### That will install the required node modules.
+
+####  Please make sure node.js is already installed on your computer
   https://nodejs.org/en/
 
 #### 2- To run the test in different browsers run the following commands respectively.

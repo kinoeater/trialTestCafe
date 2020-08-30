@@ -7,10 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "testChrome": "testcafe \"chrome '--window-size=2880,1800'\" test/task.js",
     "testChrome1": "testcafe chrome test/task.js",
-    "testIE": "testcafe \"firefox '--window-size=2880,1800'\" test/task.js",
-    "testFirefox": "testcafe \"ie '--window-size=2880,1800'\" test/task.js"
+    "testIE": "testcafe firefox test/task.js",
+    "testFirefox": "testcafe ie test/task.js"
   },
   "keywords": [],
   "author": "Bensu Konakoglu",
