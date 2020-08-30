@@ -1,5 +1,5 @@
 import { Selector, t } from 'testcafe';
-import XPathSelector from '../config/xpath-selector';
+import XPathSelector from '../Library/xpath-selector';
 
 class taskPage {
 
