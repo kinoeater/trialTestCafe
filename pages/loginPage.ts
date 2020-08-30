@@ -1,6 +1,11 @@
 import { Selector, t } from 'testcafe';
 
 class loginPage {
+    login_button: Selector;
+    next_button: Selector;
+    email_input: Selector;
+    password_input: Selector;
+    signin_button: Selector;
 
     constructor() {
         this.login_button = Selector('.header-navlink.brand.login.w-button');

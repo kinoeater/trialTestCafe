@@ -2,6 +2,18 @@ import { Selector, t } from 'testcafe';
 import XPathSelector from '../Library/xpath-selector';
 
 class taskPage {
+    new_task_button: Selector;
+    task_list_button: Selector;
+    add_ruum: Selector;
+    ruum_option_one: Selector;
+    add_section: Selector;
+    section_two: Selector;
+    create_task_button: Selector;
+    task_name_input: Selector;
+    task_name: string;
+    first_task: Selector;
+    done: Selector;
+    task_status_done: Selector;
 
     constructor() {
         this.new_task_button = Selector('button[class="btn btn-primary pl-2 ml-2"]')

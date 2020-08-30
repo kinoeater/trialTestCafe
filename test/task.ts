@@ -1,5 +1,5 @@
-import loginPage from '../pages/loginPage.js'
-import taskPage from '../pages/taskPage.js'
+import loginPage from '../pages/loginPage'
+import taskPage from '../pages/taskPage'
 
 fixture('ruum sap')
     .page('https://www.ruumapp.com/')

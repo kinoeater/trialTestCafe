@@ -7,9 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "testChrome1": "testcafe chrome test/task.js",
-    "testIE": "testcafe firefox test/task.js",
-    "testFirefox": "testcafe ie test/task.js"
+    "testChrome": "testcafe chrome test/task.ts",
+    "testIE": "testcafe firefox test/task.ts",
+    "testFirefox": "testcafe ie test/task.ts"
   },
   "keywords": [],
   "author": "Bensu Konakoglu",
