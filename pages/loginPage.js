@@ -15,7 +15,8 @@ class loginPage {
     }
     async login_successfully(user_email,user_password) {
         await t
-            .click(this.login_button)
+            .navigateTo('https://open.ruumapp.com/auth')
+            .maximizeWindow()
             .typeText(this.email_input, user_email)
             .click(this.next_button)
             .typeText(this.password_input, user_password)
